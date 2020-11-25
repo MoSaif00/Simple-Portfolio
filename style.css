@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Indie+Flower&family=Josefin+Sans&family=Nerko+One&family=Pacifico&family=Texturina&family=Xanh+Mono&display=swap');
+/* font-family: 'Dancing Script', cursive;
+font-family: 'Indie Flower', cursive;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Nerko One', cursive;
+font-family: 'Pacifico', cursive;
+font-family: 'Texturina', serif;
+font-family: 'Xanh Mono', monospace; */
+
+/* for subscribe */
+/* font-family: 'Dancing Script', cursive; */
+body {
+  font-family: 'Josefin Sans', sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: white;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: gray;
+  color: white;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: blue 4px solid;
+}
+header a {
+  text-transform: uppercase;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: bold;
+}
+header li {
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+
+header #branding {
+  float: left;
+}
+header #branding h1 {
+  margin: 0;
+  font-family: 'Pacifico', cursive;
+}
+header #branding .highlight {
+  font-family: 'Indie Flower', cursive;
+}
+
+header nav {
+  float: right;
+  margin-top: 10px;
+  font-family: 'Indie Flower', cursive;
+}
+header .highlight,
+header .home-page a {
+  color: blue;
+  font-weight: bold;
+}
+
+header a:hover {
+  color: wheat;
+  font-weight: bold;
+}
