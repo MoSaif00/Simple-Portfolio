@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Indie+Flower&family=Josefin+Sans&family=Nerko+One&family=Pacifico&family=Texturina&family=Xanh+Mono&display=swap');
+
+body {
+  font-family: 'Josefin Sans', sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: #f2efea;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: #556052;
+  color: white;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: #af6b58 4px solid;
+}
+header a {
+  text-transform: uppercase;
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: bold;
+}
+header li {
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+
+header #branding {
+  float: left;
+}
+header #branding h1 {
+  margin: 0;
+  font-family: 'Pacifico', cursive;
+  color: #af6b58;
+}
+header #branding h1 i {
+  color: white;
+}
+header #branding .highlight {
+  font-family: 'Indie Flower', cursive;
+}
+
+header nav {
+  float: right;
+  margin-top: 15px;
+  font-family: 'Indie Flower', cursive;
+}
+header .highlight,
+header .home-page a {
+  color: #af6b58;
+  font-weight: bold;
+}
+
+header a:hover {
+  color: #cbbcb1;
+  font-weight: bold;
+}
+
+#showcase {
+  min-height: 400px;
+  background: url('../img/blake-connally-B3l0g6HLxr8-unsplash.jpg') no-repeat
+    center;
+  background-size: cover;
+  text-align: center;
+  color: white;
+}
+
+#showcase h1 {
+  margin-top: 90px;
+  font-size: 55px;
+  margin-bottom: 15px;
+}
+#showcase p {
+  font-size: 20px;
+}
+
+#newsletter {
+  padding: 15px;
+  color: #f2efea;
+  background-color: #556052;
+  font-family: 'Dancing Script', cursive;
+  font-size: 20px;
+}
+#newsletter h1 {
+  float: left;
+}
+
+#newsletter form {
+  float: right;
+  margin-top: 23px;
+}
+
+#newsletter input[type='email'] {
+  padding: 4px;
+  height: 25px;
+  width: 250px;
+}
+.submit-button {
+  height: 38px;
+  background-color: #cbbcb1;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #353637;
+  font-family: 'Dancing Script', cursive;
+  font-size: 20px;
+}
+
+#skills {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+#skills .skill-box {
+  float: left;
+  text-align: center;
+  width: 30%;
+  padding: 10px;
+}
+
+.skill-box h3 {
+  text-transform: uppercase;
+  font-family: 'Pacifico', cursive;
+}
+
+footer {
+  padding: 5px;
+  margin-top: 20px;
+  color: #cbbcb1;
+  background-color: #af6b58;
+  text-align: center;
+}
+footer p {
+  font-size: 16px;
+  font-family: 'Texturina', serif;
+}
+
+@media (max-width: 920px) {
+  #newsletter h1,
+  #newsletter form {
+    float: none;
+
+    text-align: center;
+  }
+  #newsletter {
+    padding-bottom: 20px;
+  }
+
+  #newsletter button {
+    display: block;
+    width: 20%;
+    margin: 0 auto 0 auto;
+  }
+  #newsletter form input[type='email'] {
+    width: 100%;
+    margin-bottom: 5px;
+  }
+}
+@media (max-width: 760px) {
+  header #branding,
+  header nav,
+  header nav li,
+  #newsletter h1,
+  #newsletter form,
+  #skills .skill-box {
+    float: none;
+    text-align: center;
+    width: 100%;
+  }
+  header {
+    padding-bottom: 20px;
+  }
+  #showcase h1 {
+    margin-top: 40px;
+    font-size: 50px;
+  }
+  #newsletter {
+    padding-bottom: 20px;
+  }
+  #newsletter button {
+    display: block;
+    width: 80%;
+    margin: 0 auto 0 auto;
+  }
+  #newsletter form input[type='email'] {
+    width: 100%;
+    margin-bottom: 5px;
+  }
+}
